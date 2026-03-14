@@ -9,7 +9,7 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideRouter(routes, withComponentInputBinding()),
-    { provide: API_URL, useValue: '/data/items.json' },
+    { provide: API_URL, useValue: './data/items.json' },
       provideHttpClient()
   ]
 };
