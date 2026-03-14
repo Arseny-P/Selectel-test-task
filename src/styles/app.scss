@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #ccd1d5;
+    border-bottom: 2px solid #092433;
+    &__statistic {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    span {
+        font-size: 14px;
+        color: #1C1F21;
+    }
+}
+
+.navigation {
+    padding: 10px 20px;
+
+    &__link {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #0066ff;
+        font-size: 18px;
+        font-weight: 400;
+        &:hover {
+            text-decoration: underline;
+            font-weight: 600;
+        }
+    }
+}
+
+.main__container {
+    padding: 10px 20px;
+}
+
+.active {
+    text-decoration: underline;
+}

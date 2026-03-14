@@ -1,0 +1,7 @@
+[
+  { "id": 1, "label": "Element1", "value": 150 },
+  { "id": 2, "label": "Element2", "value": 100 },
+  { "id": 3, "label": "Element3", "value": 999 },
+  { "id": 4, "label": "Element4", "value": 321 },
+  { "id": 5, "label": "Element5", "value": 123 }
+]
